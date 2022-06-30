@@ -64,4 +64,4 @@ tap python build NA
 
 17. Open ***PathWave Test Automation*** software
 
-
+18. Let"s move to next step [VNA Test Step](https://github.com/csprings/NA/ResetStep.md)
