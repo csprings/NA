@@ -1,4 +1,4 @@
-[back](https://github.com/csprings/NA/edit/main/VNA.md)
+[back](https://github.com/csprings/NA/blob/main/VNA.md)
 ### IDN Test Step Plugin development
 
 1.	Select ***IDN.py*** file and add(from) VNA class to this Reset.py file.
