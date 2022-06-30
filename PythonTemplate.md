@@ -6,7 +6,6 @@
 ```
 tap sdk new python-project
 ```
-    ![image](https://user-images.githubusercontent.com/91975559/176609635-493090d9-19ba-40a7-bd04-c2b76d0d6112.png)
 
 3. Name the Project as ***"NA"*** then enter
     
@@ -16,7 +15,6 @@ tap sdk new python-project
 ```
 C:\Program Files\Keysight\Test Automation\Packages\Python
 ```
-    ![image](https://user-images.githubusercontent.com/91975559/176608919-69920248-0d6d-4d1c-99b0-a44a26862360.png)
 
 5. ***enter*** on version so that version becomes 1.0.0
 
