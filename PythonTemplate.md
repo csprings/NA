@@ -19,6 +19,7 @@ C:\Program Files\Keysight\Test Automation\Packages\Python
 6. another ***enter*** for the Description
 
 8. put ***1*** to create a project
+  ![image](https://user-images.githubusercontent.com/91975559/176608251-e390fb65-9c14-429b-8358-29d89d4a1059.png)
 
 9. now need to add Plugin template, select ***1***
 
