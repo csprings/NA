@@ -69,12 +69,14 @@ self._io.Close()
 ```
 ![image](https://user-images.githubusercontent.com/91975559/176613951-31348739-1dd6-49cc-a81a-e8c5b2f55d90.png)
 
-9. Let's build again the python Project
+9. ***Save*** the project, with ***ctrl+s***
+
+10. Let's build again the python Project
 ```
 tap python build NA
 ```
 ![image](https://user-images.githubusercontent.com/91975559/176614879-96f76eb8-d8c8-465f-8cb6-a97e7129fecc.png)
 
-10. Open ***PathWave Test Automation*** software
+11. Open ***PathWave Test Automation*** software
 
-11. Move to next step [IDN Test Step](https://github.com/csprings/Code-Repo/blob/gh-pages/ResetStep.md)
+12. Move to next step [IDN Test Step](https://github.com/csprings/NA/blob/main/IDN.md)
