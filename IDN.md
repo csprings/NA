@@ -1,11 +1,13 @@
 [back](https://github.com/csprings/NA/blob/main/VNA.md)
 ### IDN Test Step Plugin development
 
-1.	Select ***IDN.py*** file and add(from) VNA class to this Reset.py file.
+1.	Select ***IDN.py*** file and add(from) VNA class to this IDN.py file.
 ```python
 from .VNA import *
 ```
-2.	Change ***attribute*** of the Reset TestStep. 
+![image](https://user-images.githubusercontent.com/91975559/176617241-8ba491ad-02e1-43a2-9df1-3325823ea196.png)
+
+2.	Change ***attribute*** of the IDN TestStep. 
 ```python
 @Attribute(DisplayAttribute, "Reset", "Add a description here", "Add a group name here")
 ```
@@ -13,16 +15,29 @@ from .VNA import *
 ```python
 @Attribute(DisplayAttribute, "Reset", "Reset the instrument to default setting", "Network Analyzer") 
 ```
+![image](https://user-images.githubusercontent.com/91975559/176617348-817a8a6a-05d3-452f-b4ed-d08e24cd0319.png)
+
 3.  Add ***setting attribute***, which will choose and connect the instrument. Similar to the VNA.py, reuse exist example code.
 ```python
-# Add VNA instrument to the test step
 Prop = self.AddProperty("vna", None, VNA)
+```
+![image](https://user-images.githubusercontent.com/91975559/176617531-93fdd331-f679-46e7-90ea-9f882354d38a.png)
+
+```python
 Prop.AddAttribute(DisplayAttribute, "Instrument", "The instrument to connect", "Resources")
 ```
-And delete or comment out for the next attribute with ***“ctrl +/”***.
+![image](https://user-images.githubusercontent.com/91975559/176617622-c7eadbb1-f227-4dc2-b019-af7e0c68ea4f.png)
 
-4.	Scroll down to **Run()** method and add the below 2 lines to send ***“SYSTem:FPReset”*** SCPI command and left a log to notifying the instrument has been reset.
+And ***delete*** or ***comment out*** rest of the lines with ***“ctrl +/”***.
+
+4.	Scroll down to **Run()** method and add the below 2 lines to send ***“*idn?”*** SCPI command and print a response of idn command into the log window.
 ```python
-self.vna._io.ScpiCommand("SYSTem:FPReset")
-self.Info("Insturement has been reset")
+idn = self.vna._io.ScpiQuery("*idn?")
 ```
+![image](https://user-images.githubusercontent.com/91975559/176618207-aaf7492a-6b2f-464d-97f0-6a6be5d31bf8.png)
+
+```python
+self.Info(idn)
+```
+![image](https://user-images.githubusercontent.com/91975559/176618324-6f6e7e99-0fb8-4c47-9b49-d5959a78581c.png)
+
