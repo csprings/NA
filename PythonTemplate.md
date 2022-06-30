@@ -55,3 +55,25 @@ C:\Program Files\Keysight\Test Automation\Packages\Python
 15. Now put another ***enter*** to close template creation
 
     ![image](https://user-images.githubusercontent.com/91975559/176609524-938f24ba-4699-402a-b7ab-6df3513a0e4e.png)
+
+16. Let's build first Python project. copy and paste the below line
+```
+tap python build NA
+```
+![image](https://user-images.githubusercontent.com/91975559/176611660-dde2c5f4-5d6f-4c2e-a617-387f6cd452f1.png)
+
+18. copy and paste the below line in Command prompt 
+```
+cd C:\Program Files\Keysight\Test Automation\Packages\Python\NA\
+```
+![image](https://user-images.githubusercontent.com/91975559/176611051-fca7cdf0-2d71-4039-b070-ec7e4d46c213.png)
+
+17. Open VS Code with ***code .***
+
+    ![image](https://user-images.githubusercontent.com/91975559/176611164-4cfec8d2-ac65-4a66-b1ce-4679a224583b.png)
+
+17. Click ***Open Folder***
+
+    ![image](https://user-images.githubusercontent.com/91975559/176610589-b2aaa614-2395-4bc2-a732-ccca0d1717d9.png)
+
+18. 
