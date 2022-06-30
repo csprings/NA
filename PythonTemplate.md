@@ -6,6 +6,7 @@
 ```
 tap sdk new python-project
 ```
+    ![image](https://user-images.githubusercontent.com/91975559/176609635-493090d9-19ba-40a7-bd04-c2b76d0d6112.png)
 
 3. Name the Project as ***"NA"*** then enter
     
@@ -15,7 +16,7 @@ tap sdk new python-project
 ```
 C:\Program Files\Keysight\Test Automation\Packages\Python
 ```
-![image](https://user-images.githubusercontent.com/91975559/176608919-69920248-0d6d-4d1c-99b0-a44a26862360.png)
+    ![image](https://user-images.githubusercontent.com/91975559/176608919-69920248-0d6d-4d1c-99b0-a44a26862360.png)
 
 5. ***enter*** on version so that version becomes 1.0.0
 
@@ -31,14 +32,28 @@ C:\Program Files\Keysight\Test Automation\Packages\Python
 
 9. now need to add Plugin template, select ***1***
 
+    ![image](https://user-images.githubusercontent.com/91975559/176609018-75d2bc73-5d4f-4dbf-a774-56bfe556ea5b.png)
+
 10. Select ***2***: 'Instrument'
 
+    ![image](https://user-images.githubusercontent.com/91975559/176609092-2707c633-1317-499a-bdde-99ce85caed9c.png)
+
 11. and name it as ***VNA***
+    
+    ![image](https://user-images.githubusercontent.com/91975559/176609201-bfa306e2-137b-4216-adbe-d54c5ccb3b06.png)
 
 12. to create another one, select ***1***
 
+    ![image](https://user-images.githubusercontent.com/91975559/176609284-f9d4a8ee-8a13-449e-bc6d-adc150f0d5b5.png) 
+
 13. Just ***enter*** to create ***Step***
+
+    ![image](https://user-images.githubusercontent.com/91975559/176609378-d3317368-0c46-4356-a7e4-fd2ddcbc675b.png)
 
 14. Name the step as ***IDN***
 
+    ![image](https://user-images.githubusercontent.com/91975559/176609454-5bca041d-fb3b-4410-b784-58f22764b2bb.png)
+
 15. Now put another ***enter*** to close template creation
+
+    ![image](https://user-images.githubusercontent.com/91975559/176609524-938f24ba-4699-402a-b7ab-6df3513a0e4e.png)
