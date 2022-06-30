@@ -62,18 +62,6 @@ tap python build NA
 ```
 ![image](https://user-images.githubusercontent.com/91975559/176611660-dde2c5f4-5d6f-4c2e-a617-387f6cd452f1.png)
 
-18. copy and paste the below line in Command prompt 
-```
-cd C:\Program Files\Keysight\Test Automation\Packages\Python\NA\
-```
-![image](https://user-images.githubusercontent.com/91975559/176611051-fca7cdf0-2d71-4039-b070-ec7e4d46c213.png)
+17. Open ***PathWave Test Automation*** software
 
-17. Open VS Code with ***code .***
 
-    ![image](https://user-images.githubusercontent.com/91975559/176611164-4cfec8d2-ac65-4a66-b1ce-4679a224583b.png)
-
-17. Click ***Open Folder***
-
-    ![image](https://user-images.githubusercontent.com/91975559/176610589-b2aaa614-2395-4bc2-a732-ccca0d1717d9.png)
-
-18. 
