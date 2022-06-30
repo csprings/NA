@@ -24,9 +24,9 @@ from OpenTap.Plugins.BasicSteps import GenericScpiInstrument
 ```
 ---->
 ```python
-@Attribute(DisplayAttribute, "VNA", "add VNA Network Analyzer", "VNA")
+@Attribute(DisplayAttribute, "VNA", "add VNA Network Analyzer", "Network Analyzer")
 ```
-![image](https://user-images.githubusercontent.com/91975559/176612705-1da9adb9-c5a4-4050-8310-64ca5767c8bf.png)
+![image](https://user-images.githubusercontent.com/91975559/176615774-ee9fabd1-48b0-49f7-a5eb-67fd76c15d5d.png)
 
 5. On the ***__init__*** function copy and paste below lines
 
