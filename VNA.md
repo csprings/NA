@@ -31,27 +31,40 @@ from OpenTap.Plugins.BasicSteps import GenericScpiInstrument
 ```python
 self._io = GenericScpiInstrument()
 ```
+![image](https://user-images.githubusercontent.com/91975559/176613105-3effe214-429f-40e3-a2d2-0bde557f9e3d.png)
+
 ```python
 self.Name = "VNA"
 ```
+![image](https://user-images.githubusercontent.com/91975559/176613165-6c1cf43f-7d90-4969-ac4d-c956e8ec184a.png)
+
 ```python
 Prop = self.AddProperty("visa_address", "TCPIP0::127.0.0.1::hislip0::INSTR", String)
 ```
+![image](https://user-images.githubusercontent.com/91975559/176613387-04cf7290-1d3d-4ef7-b443-e6390948bb30.png)
+
 ```python
 Prop.AddAttribute(DisplayAttribute, "VISA Address", "VISA Address of the instrument to connect", "VISA")
 ```
+![image](https://user-images.githubusercontent.com/91975559/176613517-d98ee8dc-f348-4935-afa8-4c74f8c52c77.png)
 
-6.	On the ***Open*** function, add below 3 lines of the code, that will add default visa_address to _io instance and open the instrument connection when it calls Open() method. 
+6. Delete below lines before ***def Open(self)***
+
+7.	On the ***Open*** function, add below 3 lines of the code, that will add default visa_address to _io instance and open the instrument connection when it calls Open() method. 
 ```python
 self._io.VisaAddress  = self.visa_address
 ```
+![image](https://user-images.githubusercontent.com/91975559/176613806-5b8d1dc6-ac91-4d10-8db7-152a21dfe6be.png)
+
 ```python
 self._io.Open()
 ```
+![image](https://user-images.githubusercontent.com/91975559/176613887-0885aa69-2eb0-4350-87c8-81643d936574.png)
 
-7.	On the ***Close*** function, add a line, that close the instrument connection 
+8.	On the ***Close*** function, add a line, that close the instrument connection 
 ```python
 self._io.Close()
 ```
+![image](https://user-images.githubusercontent.com/91975559/176613951-31348739-1dd6-49cc-a81a-e8c5b2f55d90.png)
 
-6. Let"s move to next step [Reset Test Step](https://github.com/csprings/Code-Repo/blob/gh-pages/ResetStep.md)
+9. Let"s move to next step [Reset Test Step](https://github.com/csprings/Code-Repo/blob/gh-pages/ResetStep.md)
