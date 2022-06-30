@@ -13,9 +13,9 @@ from .VNA import *
 ```
 ---->
 ```python
-@Attribute(DisplayAttribute, "Reset", "Reset the instrument to default setting", "Network Analyzer") 
+@Attribute(DisplayAttribute, "IDN", "Reset the instrument to default setting", "Network Analyzer") 
 ```
-![image](https://user-images.githubusercontent.com/91975559/176617348-817a8a6a-05d3-452f-b4ed-d08e24cd0319.png)
+![image](https://user-images.githubusercontent.com/91975559/176618763-8ef6ebb3-5484-43f6-a761-499492c0cefa.png)
 
 3.  Add ***setting attribute***, which will choose and connect the instrument. Similar to the VNA.py, reuse exist example code.
 ```python
