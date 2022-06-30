@@ -16,18 +16,20 @@ C:\Program Files\Keysight\Test Automation\Packages\Python
 
 5. ***enter*** on version so that version becomes 1.0.0
 
-6. put ***1*** to create a project
+6. another ***enter*** for the Description
 
-7. now need to add Plugin template, select ***1***
+8. put ***1*** to create a project
 
-8. Select ***2***: 'Instrument'
+9. now need to add Plugin template, select ***1***
 
-9. and name it as ***VNA***
+10. Select ***2***: 'Instrument'
 
-10. to create another one, select ***1***
+11. and name it as ***VNA***
 
-11. Just ***enter*** to create ***Step***
+12. to create another one, select ***1***
 
-12. Name the step as ***IDN***
+13. Just ***enter*** to create ***Step***
 
-13. Now put another ***enter*** to close template creation
+14. Name the step as ***IDN***
+
+15. Now put another ***enter*** to close template creation
