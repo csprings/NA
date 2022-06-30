@@ -15,8 +15,6 @@ tap sdk new python-project
 ```
 C:\Program Files\Keysight\Test Automation\Packages\Python
 ```
-    ![image](https://user-images.githubusercontent.com/91975559/176608600-734d4316-8926-47e9-83ca-c1ba43ead06f.png)
-
 
 5. ***enter*** on version so that version becomes 1.0.0
 
