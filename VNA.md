@@ -1,6 +1,6 @@
 ### Implement VNA Instrument Plugin
 
-1. copy and paste the below line in Command prompt 
+1. copy and paste the below line in ***Command prompt*** window 
 ```
 cd C:\Program Files\Keysight\Test Automation\Packages\Python\NA\
 ```
@@ -67,4 +67,10 @@ self._io.Close()
 ```
 ![image](https://user-images.githubusercontent.com/91975559/176613951-31348739-1dd6-49cc-a81a-e8c5b2f55d90.png)
 
-9. Let"s move to next step [Reset Test Step](https://github.com/csprings/Code-Repo/blob/gh-pages/ResetStep.md)
+9. Let's build again the python Project
+```
+tap python build NA
+```
+![image](https://user-images.githubusercontent.com/91975559/176614879-96f76eb8-d8c8-465f-8cb6-a97e7129fecc.png)
+
+10. Move to next step [IDN Test Step](https://github.com/csprings/Code-Repo/blob/gh-pages/ResetStep.md)
