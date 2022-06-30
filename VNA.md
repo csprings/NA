@@ -75,4 +75,6 @@ tap python build NA
 ```
 ![image](https://user-images.githubusercontent.com/91975559/176614879-96f76eb8-d8c8-465f-8cb6-a97e7129fecc.png)
 
-10. Move to next step [IDN Test Step](https://github.com/csprings/Code-Repo/blob/gh-pages/ResetStep.md)
+10. Open ***PathWave Test Automation*** software
+
+11. Move to next step [IDN Test Step](https://github.com/csprings/Code-Repo/blob/gh-pages/ResetStep.md)
