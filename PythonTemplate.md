@@ -1,3 +1,7 @@
+## Welcome to Insight PathWave Test Automation Class
+
+Here is the webpage, you can copy and paste some code during the training to shorten typing time.
+
 ### Create Python Template
 
 1. Open ***Command Prompt***
@@ -64,4 +68,4 @@ tap python build NA
 
 17. Open ***PathWave Test Automation*** software
 
-18. Let"s move to next step [VNA Test Step](https://github.com/csprings/NA/blob/main/VNA.md)
+18. Let"s move to next step [VNA Instrument Plugin](https://github.com/csprings/NA/blob/main/VNA.md)
